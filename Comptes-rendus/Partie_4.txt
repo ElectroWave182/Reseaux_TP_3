@@ -1,0 +1,17 @@
+1-e)
+
+					|	Protocole de transport : UDP
+					|	Port source : 1026
+					|	Port destinataire : 53
+client -> serveur  {|	IP source : 192.168.10.4
+					|	IP destinataire : 192.168.10.5
+					|	Mac source : 0040.0BE1.018C
+					|	Mac destinataire : 0000.0C7D.9227
+
+					|	Protocole de transport : UDP
+					|	Port source : 1026
+					|	Port destinataire : 53
+serveur -> client  {|	IP source : 192.168.10.5
+					|	IP destinataire : 192.168.10.4
+					|	Mac source : 0000.0C7D.9227
+					|	Mac destinataire : 0040.0BE1.018C

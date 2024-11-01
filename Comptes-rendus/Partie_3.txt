@@ -1,0 +1,17 @@
+1-c)
+
+					|	Protocole de transport : TCP
+					|	Port source : 1045
+					|	Port destinataire : 80
+client -> serveur  {|	IP source : 192.168.10.3
+					|	IP destinataire : 192.168.10.5
+					|	Mac source : 0030.A345.5703
+					|	Mac destinataire : 0060.7084.5729
+
+					|	Protocole de transport : TCP
+					|	Port source : 80
+					|	Port destinataire : 1025
+serveur -> client  {|	IP source : 192.168.10.5
+					|	IP destinataire : 192.168.10.3
+					|	Mac source : 0000.0C7D.9227
+					|	Mac destinataire : 0060.70D4.91DD

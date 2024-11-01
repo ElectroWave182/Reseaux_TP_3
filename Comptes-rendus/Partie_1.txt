@@ -1,0 +1,34 @@
+Étape 1 :
+---------
+
+
+1)
+
+- Entre 2 périphériques terminaux : câble croisé
+- Entre 2 périphériques intermédiaires : câble croisé
+- Entre 2 périphériques terminal et intermédiaire : câble droit
+
+
+
+Étape 2 :
+---------
+
+
+1)
+
+Elle en contient 4.
+
+
+2)
+
+Une adresse IP sert à identifier un noeud d'un réseau :
+les envois vers cette adresse parcourent ainsi le réseau
+grâce aux masques de réseau, et arrivent ainsi à destination,
+un peu comme une adresse postale.
+
+
+3)
+
+Le masque de sous-réseau permet d'identifier quelle partie
+de l'adresse concerne la situation de l'élément dans
+le sous-réseau, et donc de savoir quels noeuds en font partie.

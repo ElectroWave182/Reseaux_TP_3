@@ -1,0 +1,64 @@
+Exercices :
+-----------
+
+
+1-b)
+
+"Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)"
+
+PC0 a envoyé 4 paquets (à PC3),
+en a reçu 4 (de sa part),
+et aucun n'a été perdu :
+la requête est donc un succès.
+
+
+1-c)
+
+"Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)"
+
+PC1 a envoyé 4 paquets (au serveur),
+en a reçu 4 (de sa part),
+et aucun n'a été perdu :
+la requête est donc un succès.
+
+
+1-e)
+
+"00D0.BC54.1260"
+
+
+
+Questions :
+-----------
+
+
+4)
+
+Il s'agit d'une adresse permettant d'identifier le port
+où notre câble connecte la machine au réseau ;
+ici, le PC3 est relié au commutateur0 par le port
+00D0.BC54.1260 à l'aide d'un câble droit.
+
+
+5)
+
+Cette table rescence toutes les câblages directement
+connectés aux ports du commutateur : en effet,
+celui-ci en possède plusieurs pour pouvoir créer
+un réseau, contrairement aux périphériques terminaux,
+d'où la nécessité d'une table.
+
+
+6)
+
+La passerelle sert originellement à savoir dans quelle
+interface du routeur le paquet doit être transmis pour
+pouvoir ainsi sortir du réseau ; dans notre exemple,
+seul un sous-réseau local a été créé, et ne nécessite
+donc ni routeur, ni passerelle.
+
+
+1-l)
+
+Il s'agit de celle indiquée à la ligne
+"SRC IP: 192.168.10.1".
